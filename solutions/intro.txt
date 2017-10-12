@@ -1,0 +1,12 @@
+Hello,
+
+1. What is your background in statistics, machine learning, and AI?
+
+I did not take statistics as part of my undergrad degree (computer science) which is probably what I'm most worried about.
+I did take an "AI" class and we studied Bayes, Naive Bayes, neural nets, some other basic artificial intelligence techniques (2007).
+
+2. What do you hope to accomplish by taking this course?
+
+My goal is to become relatively proficient in basic machine learning techniques.
+I'm mostly doing this because I'm interested and I want to challenge myself. I am a software engineer by professional but
+I doubt that I will actually end up using anything that I'll learn to be honest (at least in the near future).  

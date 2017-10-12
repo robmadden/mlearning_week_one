@@ -1,0 +1,11 @@
+It appears that by using the median instead of the mean to build the baseline model we get a higher
+RMSE according to my solution in baseline_models.R:
+
+> meanRMSE
+[1] 0.1301215
+> medianRMSE
+[1] 0.1307533
+
+
+Which means that if these are our only two baseline models we should prefer to use the mean
+rather than the median for slightly better predictability.

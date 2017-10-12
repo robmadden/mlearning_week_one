@@ -1,0 +1,22 @@
+csv <- read.csv(paste(wd, "College.csv", sep="/"))
+rownames(csv)=csv[,1]
+csv=csv[,-1]
+college <- data.frame(csv)
+summary(college)
+pairs(college[,1:10])
+isPrivate <- ifelse(college$Private=="Yes", 1, 0)
+plot(college$Outstate, isPrivate)
+Elite=rep("No",nrow(college))
+Elite[college$Top10perc>50]="Yes"
+Elite=as.factor(Elite)
+college=data.frame(college,Elite)
+summary(Elite)
+isElite <- ifelse(Elite=="Yes", 1, 0)
+plot(college$Outstate, isElite)
+par(mfrow=c(2,2))
+hist(college$F.Undergrad)
+hist(college$Grad.Rate)
+hist(college$Apps)
+hist(college$Enroll)
+plot(college$PhD, isPrivate)
+plot(college$perc.alumni, isPrivate)
