@@ -8,5 +8,6 @@ I did take an "AI" class and we studied Bayes, Naive Bayes, neural nets, some ot
 2. What do you hope to accomplish by taking this course?
 
 My goal is to become relatively proficient in basic machine learning techniques.
-I'm mostly doing this because I'm interested and I want to challenge myself. I am a software engineer by professional but
-I doubt that I will actually end up using anything that I'll learn to be honest (at least in the near future).  
+I'm mostly doing this because I'm interested and I want to challenge myself. I am a software engineer by profession but
+I don't know that I will actually end up using anything that I'll learn to be honest (at least in the near future). But,
+I am looking at it as having another tool in my toolbelt. 
